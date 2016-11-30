@@ -1,0 +1,484 @@
+New log file opened at Sat Sep 12 19:08:53 CLT 2015 by 972@Rajput
+jvm 972@Rajput
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\Praneeth\BitCoinClient
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\Praneeth\BitCoinClient\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\Praneeth\BitCoinClient\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\Praneeth\BitCoinClient\project, returning: (bitcoinclient-build)
+Loading project definition from C:\Users\Praneeth\BitCoinClient\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@435d7479, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\Praneeth\BitCoinClient
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\Praneeth\BitCoinClient, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\Praneeth\BitCoinClient, returning: (bitcoinclient)
+Set current project to hello-akka (in build file:/C:/Users/Praneeth/BitCoinClient/)
+Reapplying settings...
+Set current project to hello-akka (in build file:/C:/Users/Praneeth/BitCoinClient/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/Users/Praneeth/BitCoinClient/}bitcoinclient/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@45b02491, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+	modified: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+Removed products: Set(C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeting.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\GreetPrinter.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greet.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\HelloAkkaScala$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\WhoToGreet.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeting$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeter.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greet$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\HelloAkkaScala$delayedInit$body.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\GreetPrinter$$anonfun$receive$2.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\WhoToGreet$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeter$$anonfun$receive$1.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\HelloAkkaScala.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala, C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala, C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 2 Scala sources to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Compiling 2 Scala sources to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 1e260c33, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Progra~1\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-actor_2.11\2.3.11\jars\akka-actor_2.11.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.11.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\io.netty\netty\3.8.0.Final\bundles\netty.jar;C:\Users\Praneeth\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.uncommons.maths\uncommons-maths\1.2.2a\jars\uncommons-maths.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-testkit_2.11\2.3.11\jars\akka-testkit_2.11.jar
+Read from stdout: source file 'C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala' could not be found
+source file 'C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala' could not be found
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed Sep 12, 2015 7:09:02 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Praneeth/BitCoinClient/}bitcoinclient/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@c07270d, check cycles: false
+
+Initial source changes: 
+	removed:Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+	added: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+	modified: Set()
+Removed products: Set(C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeting.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\GreetPrinter.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greet.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\HelloAkkaScala$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\WhoToGreet.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeting$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeter.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greet$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\HelloAkkaScala$delayedInit$body.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\GreetPrinter$$anonfun$receive$2.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\WhoToGreet$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\Greeter$$anonfun$receive$1.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\HelloAkkaScala.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala, C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala, C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+
+Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 75392bfe, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Progra~1\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-actor_2.11\2.3.11\jars\akka-actor_2.11.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.11.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\io.netty\netty\3.8.0.Final\bundles\netty.jar;C:\Users\Praneeth\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.uncommons.maths\uncommons-maths\1.2.2a\jars\uncommons-maths.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-testkit_2.11\2.3.11\jars\akka-testkit_2.11.jar
+Scala compilation took 4.476548111 s
+Invalidating C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala...
+Invalidating (transitively) by inheritance from C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala...
+Initial set of included nodes: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+The C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+Invalidating C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala...
+Invalidating (transitively) by inheritance from C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala...
+Initial set of included nodes: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+The C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 5 s, completed Sep 12, 2015 7:09:07 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Praneeth/BitCoinClient/}bitcoinclient/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@6929998f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Sep 12, 2015 7:09:08 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Praneeth/BitCoinClient/}bitcoinclient/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@1dd94b5c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Sep 12, 2015 7:09:08 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Praneeth/BitCoinClient/}bitcoinclient/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@4e803129, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Sep 12, 2015 7:09:09 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4d5a3699, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Sep 12, 2015 7:09:13 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain LocalActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@778d27c1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Praneeth\BitCoinClient\src\main\resources\application.conf,C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\application.conf)
+Total time: 0 s, completed Sep 12, 2015 7:09:32 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@467cde6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 6d058c08, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Progra~1\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-actor_2.11\2.3.11\jars\akka-actor_2.11.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.11.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\io.netty\netty\3.8.0.Final\bundles\netty.jar;C:\Users\Praneeth\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.uncommons.maths\uncommons-maths\1.2.2a\jars\uncommons-maths.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-testkit_2.11\2.3.11\jars\akka-testkit_2.11.jar
+Scala compilation took 2.062866664 s
+Invalidating C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala...
+Invalidating (transitively) by inheritance from C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala...
+Initial set of included nodes: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+The C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+Invalidated due to generated class file collision: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala, C:\Users\Praneeth\BitCoinClient\src\main\scala\Client.scala)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 2 Scala sources to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Compiling 2 Scala sources to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 591a684b, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Progra~1\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-actor_2.11\2.3.11\jars\akka-actor_2.11.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.11.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\io.netty\netty\3.8.0.Final\bundles\netty.jar;C:\Users\Praneeth\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.uncommons.maths\uncommons-maths\1.2.2a\jars\uncommons-maths.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-testkit_2.11\2.3.11\jars\akka-testkit_2.11.jar
+Read from stdout: C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala:5: LocalActor is already defined as class LocalActor
+C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala:5: LocalActor is already defined as class LocalActor
+Read from stdout: class LocalActor extends Actor{
+class LocalActor extends Actor{
+Read from stdout: ^
+      ^
+Read from stdout: C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala:22: LocalActor is already defined as object LocalActor
+C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala:22: LocalActor is already defined as object LocalActor
+Read from stdout: object LocalActor extends App{
+object LocalActor extends App{
+Read from stdout: ^
+       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed Sep 12, 2015 7:10:51 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3fd4c403, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\LocalActor.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\LocalActor$.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\LocalActor$delayedInit$body.class, C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\LocalActor$$anonfun$receive$1.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Praneeth\BitCoinClient\src\main\scala\LocalActor.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler d8c87a8, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Progra~1\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_60\jre\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-actor_2.11\2.3.11\jars\akka-actor_2.11.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Praneeth\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.11.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\io.netty\netty\3.8.0.Final\bundles\netty.jar;C:\Users\Praneeth\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\org.uncommons.maths\uncommons-maths\1.2.2a\jars\uncommons-maths.jar;C:\Users\Praneeth\Projects\typesafe-activator-1.3.6\activator-dist-1.3.6\repository\com.typesafe.akka\akka-testkit_2.11\2.3.11\jars\akka-testkit_2.11.jar
+Scala compilation took 1.497624456 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Sep 12, 2015 7:11:32 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain LocalActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@75b468cb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Praneeth\BitCoinClient\src\main\resources\application.conf,C:\Users\Praneeth\BitCoinClient\target\scala-2.11\classes\application.conf)
+Total time: 0 s, completed Sep 12, 2015 7:11:36 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@49ff58b7, check cycles: false
+Exception in thread "sbt-bg-threads-3" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed Sep 12, 2015 7:12:29 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> eclipse
+Not a valid command: eclipse (similar: help, alias)
+Not a valid project ID: eclipse
+Expected ':' (if selecting a configuration)
+Not a valid key: eclipse (similar: deliver, licenses, clean)
+eclipse
+       ^
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 972@Rajput logs at Sat Sep 12 19:13:16 CLT 2015, goodbye.

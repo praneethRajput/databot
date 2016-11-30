@@ -1,0 +1,28 @@
+New log file opened at Sat Sep 12 19:13:23 CLT 2015 by 6124@Rajput
+Taking next connection to: 50640
+New client attempting to connect on port: 50641-50640
+  Address = /192.168.1.8:50640
+This client on port 50641 has uuid f50e0ad5-6f11-4fd9-9363-7eb622b6f6d3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-f50e0ad5-6f11-4fd9-9363-7eb622b6f6d3
+Taking next connection to: 50640
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50640
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50640
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50640
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50640
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50640
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 6124@Rajput logs at Sat Sep 12 19:31:24 CLT 2015, goodbye.
