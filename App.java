@@ -31,7 +31,7 @@ public class App {
 			while (perCallCount == 10 && pageNumber < 100) {
 				String callString = "http://api.nytimes.com/svc/search/v2/articlesearch.json?"
 						+ "q=Climate+Change&begin_date=20150301&end_date=20150430&page=" + pageNumber
-						+ "9&fields=geo_facet&api-key=a2d0fec8cd7b4490b884c3bbfa53a26b";
+						+ "9&fields=geo_facet&api-key=************";
 				HttpGet httpGetRequest = new HttpGet(callString);
 				HttpResponse httpResponse = httpClient.execute(httpGetRequest);
 				System.out.println("----------------------------------------");
