@@ -16,7 +16,7 @@ case class GuardianRecord(id: String, articleType: String, sectionId: String, se
 
 		object GuardianConsumer extends App{
 
-	val APIKey = "367b92dd-bcab-4f99-808f-ac863c06b560"
+	val APIKey = "******-**********-**********"
 			val sectionId = "environment"
 			val queryId = "climate-change"
 			val fromDate = "2006-01-01"
